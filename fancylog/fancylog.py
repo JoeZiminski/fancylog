@@ -1,9 +1,7 @@
 """
 fancylog
 ===============
-
 Wrapper around the standard logging module, with additional information.
-
 """
 
 import logging
@@ -40,7 +38,6 @@ def start_logging(
 ):
     """
     Prepares the log file, and then begins logging.
-
     :param output_dir: Directory to save the log file
     :param package: What python package are we logging?
     :param variables: List of objects whose attributes we want to log at the
@@ -292,7 +289,6 @@ def setup_logging(
     :param multiprocessing_aware: Default: True
     :param log_to_console: Print logs to the console or no.
     Default: True
-
     """
 
     initalise_logger(
